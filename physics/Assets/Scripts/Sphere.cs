@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Sphere : MonoBehaviour
 {
-    public float force = 5;
+    public float forceUP = 5;
+    public float moveX = 2.5f;
     Rigidbody2D PlayerRgdBdy;
 
     private void Start()
@@ -14,19 +15,24 @@ public class Sphere : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             Movement();
         }
+
+        
     }
 
     public void Movement()
     {
-        PlayerRgdBdy.AddForce
+        PlayerRgdBdy.velocity = new Vector2(moveX, forceUP);
 
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        moveX *= -1;
+    }
 
 
 }
