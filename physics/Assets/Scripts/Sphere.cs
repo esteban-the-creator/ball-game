@@ -4,8 +4,27 @@ using UnityEngine;
 
 public class Sphere : MonoBehaviour
 {
-  
+    public float force = 5;
+    Rigidbody2D PlayerRgdBdy;
 
+    private void Start()
+    {
+        PlayerRgdBdy = GetComponent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            Movement();
+        }
+    }
+
+    public void Movement()
+    {
+        PlayerRgdBdy.AddForce
+
+    }
 
 
 
@@ -13,6 +32,9 @@ public class Sphere : MonoBehaviour
 }
 
 /*
+ * 
+ * rigibdoy.velocity y .addforce
+ * use movetowards
  que una gravedad lo tire al piso 
  que al ar click salte en parabola contra la direccion de la gravedad
  que los chuzos hagan que se pierda
