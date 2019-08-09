@@ -9,8 +9,6 @@ public class Sphere : MonoBehaviour
     private Rigidbody2D PlayerRgdBdy;
     public Transform halfSpace;
 
-   
-
     private void Start()
     {
         PlayerRgdBdy = GetComponent<Rigidbody2D>(); // a la variable rigidbody creada se le asigna el componente RigidBody2D del objeto al que se le asigne
@@ -22,8 +20,6 @@ public class Sphere : MonoBehaviour
         {
             Movement();
         }
-
-       // sideOfScene();
     }
 
     public void Movement()
@@ -35,27 +31,15 @@ public class Sphere : MonoBehaviour
        detectar cuándo se colisiona contra un objeto */
     {
         moveX *= -1; // la variable moveX sera igual a el valor que tenga moveX en ese momento por -1 para cambiar la magnitud de su direccion 
-    }
 
-    /*
-    private void sideOfScene()
-    {
-        Vector2 forward = halfSpace.right*20;
-        Vector2 playerPosition =  transform.position - halfSpace.position;
-        float productoPunto = Vector2.Dot(forward, playerPosition);
-        Debug.Log("la magnitud del vector es " + productoPunto);
-
-        if (productoPunto >= 0 || forceUP > 0)
+        if (collision.transform.tag == "LeftWall" || collision.transform.tag == "RigthWall")
         {
-            Debug.Log("paso");
-            forceUP *= -1;
+            if (transform.position.y >= halfSpace.transform.position.y)
+            {
+                PlayerRgdBdy.velocity = new Vector2(moveX, -30);
+            }
         }
-
-        else if ( productoPunto < 0 || forceUP <= 0)
-        { forceUP *= -1; }
-    }   
-    */
-
+    }  
 }
 
 /*
