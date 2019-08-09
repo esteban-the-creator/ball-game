@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SocialPlatforms;
-
 
 public class Spikes : MonoBehaviour
 {
@@ -30,9 +28,8 @@ public class Spikes : MonoBehaviour
 
 }
 /*
-  despues usar el random range para que los chuzos se activen al azar
- luego que se aprezcan segun un en colision enter
-hay que volver a desactivar los princhos ´porque se activan y quiedan     
+    seleccionar unas espinas al azar , guardar cuales son en un indice, decirles que se muevan con move towards, indicarle a las espinaz que con collion enter(pero para esto necesito que el objeto tenga rigidbody de su lado
+    se descativen (para esto es la variable) y se haga el mismo proceso para espinas del otro lado
      */
 
 
