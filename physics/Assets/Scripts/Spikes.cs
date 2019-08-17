@@ -4,29 +4,27 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    Vector2 position1;
-    Vector2 start, end;
-    public GameObject ToGo;
-    float offset = 0.2f;
-
-
+    public Vector2 start, end;
+    public float offsetRigth = 5;
+    
     private void Awake()
     {
-        ToGo = GameObject.FindGameObjectsWithTag("");
+        start = new Vector2( transform.position.x, transform.position.y);
+
+        end = (Vector2) transform.position + (Vector2.right * offsetRigth);
     }
 
 
     private void Update()
     {
-        start = transform.position;
-        end = ToGo.transform.position;
-
-        transform.position = Vector2.MoveTowards(start, end, 5 * Time.deltaTime);
-
-        if (transform.position < ToGo)
+        if (Input.GetButton("Fire1"))
         {
-            Debug.Log("Sirve");
-           
+            transform.position = Vector2.MoveTowards(transform.position, end, 1f * Time.deltaTime);
+        }
+
+        if (Input.GetButton("Fire2"))
+        {
+            transform.position = Vector2.MoveTowards(transform.position, start, 1f * Time.deltaTime);
         }
 
     }
