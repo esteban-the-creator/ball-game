@@ -8,10 +8,16 @@ public class SpikesLeft : MonoBehaviour
     public List<GameObject> chuzosIzquierda;
     [SerializeField]
     private int allLeftSpike;
+    private int RndomSpike1, RndomSpike2;
 
     private void Awake()
     {
         chuzosIzquierda = new List<GameObject>(GameObject.FindGameObjectsWithTag("SpikesLeft"));
+
+        foreach (GameObject chuzo in chuzosIzquierda)
+        {
+            gameObject.GetComponent<Spikes>();
+        }
     }
 
     void Start()
@@ -20,23 +26,22 @@ public class SpikesLeft : MonoBehaviour
         allLeftSpike = chuzosIzquierda.Count; // con la funcion count de la lista se puede contar la cantidad de elemntos que hay en ella y en eset caso guardarlos en una variable; no hago nada con ella pero es bueno recordarlo
     }
 
+    private void Update()
+    {
+        chuzosIzquierda[RndomSpike1].GetComponent<Spikes>().Show();
+
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("choqué");
-        ActiveSpikes();   
+        RndomSpike1 = Random.Range(0, allLeftSpike - 1);
+        RndomSpike2 = Random.Range(0, allLeftSpike - 1);
+
+        chuzosIzquierda[RndomSpike1].gameObject.SetActive(true);
     }
 
-    void ActiveSpikes()
-    {
-        int IndexOfactiveSpike1 = Random.Range(0, allLeftSpike-1);
-        int IndexOfactiveSpike2 = Random.Range(0, allLeftSpike-1);
-
-        chuzosIzquierda[IndexOfactiveSpike1].gameObject.SetActive(true);
-        //chuzosIzquierda[IndexOfactiveSpike1].gameObject. 
-
-        chuzosIzquierda[IndexOfactiveSpike2].gameObject.SetActive(true);      
-        
-    }
+   
 
     /*
     seleccionar unas espinas al azar , guardar cuales son en un indice, decirles que se muevan con move towards, 

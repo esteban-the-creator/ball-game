@@ -367,6 +367,7 @@ GameObject:
   - component: {fileID: 154839596}
   - component: {fileID: 154839595}
   - component: {fileID: 154839597}
+  - component: {fileID: 154839598}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: Untagged
@@ -381,13 +382,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154839593}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -39.45, y: 37.27, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: -0.1, y: 52.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &154839595
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -477,7 +478,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToGo: {fileID: 0}
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 5
+--- !u!114 &154839598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154839593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +685,7 @@ GameObject:
   - component: {fileID: 223036184}
   - component: {fileID: 223036186}
   - component: {fileID: 223036185}
+  - component: {fileID: 223036187}
   m_Layer: 0
   m_Name: pikesLeft (4)
   m_TagString: SpikesLeft
@@ -681,13 +700,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223036183}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: 5.979653, y: -5.2485905, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.60643005, y: -9.618824, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &223036185
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -765,6 +784,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &223036187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223036183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &260079503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,6 +1655,7 @@ GameObject:
   - component: {fileID: 623619836}
   - component: {fileID: 623619838}
   - component: {fileID: 623619837}
+  - component: {fileID: 623619839}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -1635,13 +1670,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623619835}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.26215744, y: -1.6699104, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &623619837
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1719,6 +1754,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &623619839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623619835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &674308748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1780,7 @@ GameObject:
   - component: {fileID: 674308749}
   - component: {fileID: 674308751}
   - component: {fileID: 674308750}
+  - component: {fileID: 674308752}
   m_Layer: 0
   m_Name: pikesLeft (2)
   m_TagString: SpikesLeft
@@ -1744,13 +1795,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674308748}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: 16.30152, y: -15.519819, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.3257599, y: -24.17767, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &674308750
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1828,6 +1879,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &674308752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674308748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &676315228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2244,7 @@ GameObject:
   - component: {fileID: 794479362}
   - component: {fileID: 794479364}
   - component: {fileID: 794479363}
+  - component: {fileID: 794479365}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -2192,13 +2259,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794479361}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -15.655907, y: 15.579168, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.68790054, y: 20.412598, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &794479363
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2276,6 +2343,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &794479365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794479361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &826203084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,7 +2490,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848006545}
-  m_LocalRotation: {x: 0.025482766, y: 0.06234311, z: -0.38391358, w: 0.9209095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -33.78099, y: -41.05554, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children:
@@ -3216,6 +3298,7 @@ GameObject:
   - component: {fileID: 1295016652}
   - component: {fileID: 1295016654}
   - component: {fileID: 1295016653}
+  - component: {fileID: 1295016655}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -3230,13 +3313,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295016651}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -27.5, y: 26.1, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.096138, y: 36.243576, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &1295016653
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3314,6 +3397,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1295016655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295016651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &1339192821
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,6 +3423,7 @@ GameObject:
   - component: {fileID: 1339192822}
   - component: {fileID: 1339192824}
   - component: {fileID: 1339192823}
+  - component: {fileID: 1339192825}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -3339,13 +3438,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339192821}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -21.2, y: 20.16, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.16252518, y: 27.58511, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &1339192823
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3423,6 +3522,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1339192825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339192821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &1413542656
 GameObject:
   m_ObjectHideFlags: 0
@@ -3543,6 +3657,7 @@ GameObject:
   - component: {fileID: 1500112759}
   - component: {fileID: 1500112761}
   - component: {fileID: 1500112760}
+  - component: {fileID: 1500112762}
   m_Layer: 0
   m_Name: pikesLeft (3)
   m_TagString: SpikesLeft
@@ -3557,13 +3672,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500112758}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: 11.036698, y: -10.280816, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.4689331, y: -16.751705, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &1500112760
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3641,6 +3756,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1500112762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500112758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &1571699525
 GameObject:
   m_ObjectHideFlags: 0
@@ -4687,6 +4817,7 @@ GameObject:
   - component: {fileID: 1954311432}
   - component: {fileID: 1954311434}
   - component: {fileID: 1954311433}
+  - component: {fileID: 1954311435}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -4701,13 +4832,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954311431}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -5.472552, y: 5.445793, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.41101837, y: 6.0491104, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &1954311433
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4785,6 +4916,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1954311435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954311431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &2019137059
 GameObject:
   m_ObjectHideFlags: 0
@@ -4905,6 +5051,7 @@ GameObject:
   - component: {fileID: 2048701708}
   - component: {fileID: 2048701710}
   - component: {fileID: 2048701709}
+  - component: {fileID: 2048701711}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -4919,13 +5066,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048701707}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -10.5296, y: 10.478009, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: 0.54851913, y: 13.182005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &2048701709
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5003,6 +5150,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2048701711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048701707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &2079652669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5014,6 +5176,7 @@ GameObject:
   - component: {fileID: 2079652670}
   - component: {fileID: 2079652672}
   - component: {fileID: 2079652671}
+  - component: {fileID: 2079652673}
   m_Layer: 0
   m_Name: pikesLeft
   m_TagString: SpikesLeft
@@ -5028,13 +5191,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079652669}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000024447215, w: 1}
-  m_LocalPosition: {x: -33.58, y: 31.4, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39270034, w: 0.91966647}
+  m_LocalPosition: {x: -0.28041458, y: 44.300552, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 848006546}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 5.44, y: 5.491, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.245003}
 --- !u!60 &2079652671
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5112,6 +5275,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2079652673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079652669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5ec775d760a242a9d79cc426bd8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
+  offsetRigth: 2
 --- !u!1 &2118616313
 GameObject:
   m_ObjectHideFlags: 0
