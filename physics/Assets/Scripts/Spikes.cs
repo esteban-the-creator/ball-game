@@ -3,26 +3,80 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Spikes : MonoBehaviour
+
 {
-    public Vector2 start, end;
-    public float offsetRigth = 2;
-    
+    public List<GameObject> chuzos = new List<GameObject>();
+    [SerializeField]
+    private int allSpikes;
+    private int RndomSpike1, RndomSpike2;
+    public sideOfSpikes mySide; // se llama al enum que está publico en el mundo (el mundo del script, osea más abajo, aunque esto no es una instancia) y se usa como variable para determinar el lado (Der. o Izq), manualmente desde el inspector de unity
+
     private void Awake()
     {
-        start = new Vector2( transform.position.x, transform.position.y); // el transform.position es un vector3 por lo que debe ser casteado, como no permite hacer un casteo general para obtener las dos variables, se castea una a una
+     // este foreach asigna los chuzos del mundo a la lista
 
-        end = (Vector2) transform.position + (Vector2.right * offsetRigth); /* al principio la expresión "(Vector2) transform.position"  esta haciendo un casting a vector2 del transform.position, que como se mencionó está en vector3
-        y a ese tranform.position en vector2, se le suma un vector2.derecha(osea el eje x normalizado en 1) multiplicado por el valor de la variable offsetRigth (el resultado va a ser que el valor del eje x sera el del ofset rigth, es una multiplicacion por 1*/
+        foreach (Transform item in this.transform.GetChild(0).transform) // a los Transform que llamamos item (podría llamarse chuzo) en el transform del hijo (el 0 significa que es el primer hijo) del transform en donde esta aplicado este código (el padre)
+        {
+            chuzos.Add(item.gameObject); // se añade a la lista llamada chuzos, se llama el gameobject del Transform "item" (osea los chuzos) porque todos los tranform tiene gameobject y todos los gameobject tienen tranform
+        }
+
+        // aca se diferencia si los chuzos son Izq o Derc
+
+        if (mySide == sideOfSpikes.Izquierda)
+        {
+            chuzos.ForEach((spike) => spike.GetComponent<Spike>().InitializeAsLeft());
+        }
+        else
+        {
+            chuzos.ForEach((spike) => spike.GetComponent<Spike>().InitializeAsLeft());
+        }
     }
 
-
-    public void Show()
+    void Start()
     {
-      transform.position = Vector2.MoveTowards(transform.position, end, 10 * Time.deltaTime);
+       chuzos.ForEach(e => e.SetActive(false)); //estos son foreach de programacion lambda (programacion nueva para c# y permiten realizar lo mismo que el foreach anterior (INDICE1), pero en este caso el sistema deduce el tipo de varible que en este caso se llama "e" pero en el otro caso era "item" 
+       allSpikes = chuzos.Count; // con la funcion count de la lista se puede contar la cantidad de elemntos que hay en ella y en eset caso guardarlos en una variable; no hago nada con ella pero es bueno recordarlo
     }
 
-    public void Hide()
+    private void Update()
     {
-      transform.position = Vector2.MoveTowards(transform.position, start, 10f * Time.deltaTime);
+      chuzos[RndomSpike1].GetComponent<Spike>().Show();
+
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("choqué");
+        RndomSpike1 = Random.Range(0, allSpikes - 1);
+        RndomSpike2 = Random.Range(0, allSpikes - 1);
+
+        chuzos[RndomSpike1].gameObject.SetActive(true);
+    }
+    /*
+    seleccionar unas espinas al azar , guardar cuales son en un indice, decirles que se muevan con move towards, 
+    indicarle a las espinaz que con collion enter(pero para esto necesito que el objeto tenga rigidbody de su lado
+    se descativen (para esto es la variable) y se haga el mismo proceso para espinas del otro lado
+     */
 }
+
+public enum sideOfSpikes
+{
+    Izquierda,
+    Derecha
+}
+
+/* INDICE 1
+ 
+   //Estos son los foreach originales de C#, permiten indicar que para cada VAR(tipo de variable, puede ser int gameobject, etc) que llamaremos item , o como
+   //se prefiera, dentro de una variable, clase, objeto o coleccion, en este caso la lista, se ejecute algo, en este caso, desactive los items contenidos en esa lista
+
+        foreach (GameObject item in chuzosDerecha)
+        {
+            item.SetActive(false);
+        }
+
+        foreach (var item in chuzosIzquierda)
+        {
+            item.SetActive(false);
+        }
+        chuzosDerecha[(0 - allLeftSpike)].gameObject.SetActive(false); */
