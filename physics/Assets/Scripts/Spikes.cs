@@ -15,7 +15,7 @@ public class Spikes : MonoBehaviour
     {
      // este foreach asigna los chuzos del mundo a la lista
 
-        foreach (Transform item in this.transform.GetChild(0).transform) // a los Transform que llamamos item (podría llamarse chuzo) en el transform del hijo (el 0 significa que es el primer hijo) del transform en donde esta aplicado este código (el padre)
+        foreach (Transform item in this.transform) // a los Transform que llamamos item (podría llamarse chuzo) en el transform del hijo (el 0 significa que es el primer hijo) del transform en donde esta aplicado este código (el padre)
         {
             chuzos.Add(item.gameObject); // se añade a la lista llamada chuzos, se llama el gameobject del Transform "item" (osea los chuzos) porque todos los tranform tiene gameobject y todos los gameobject tienen tranform
         }
@@ -28,7 +28,7 @@ public class Spikes : MonoBehaviour
         }
         else
         {
-            chuzos.ForEach((spike) => spike.GetComponent<Spike>().InitializeAsLeft());
+            chuzos.ForEach((spike) => spike.GetComponent<Spike>().InitializeAsRigth());
         }
     }
 
@@ -44,7 +44,7 @@ public class Spikes : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void EnableSpikes()
     {
         Debug.Log("choqué");
         RndomSpike1 = Random.Range(0, allSpikes - 1);
