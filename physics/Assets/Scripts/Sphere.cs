@@ -37,13 +37,29 @@ public class Sphere : MonoBehaviour
             if (transform.position.y >= halfSpace.transform.position.y)
             {
                 PlayerRgdBdy.velocity = new Vector2(moveX, -30);
-               
+
             }
+        }
 
-            print(collision.transform.name);
-
+        if (collision.transform.tag == "LeftWall")
+        
+        {
             collision.transform.GetComponent<Spikes>().EnableSpikes();
 
+            GameObject.FindWithTag("RigthWall").transform.GetComponent<Spikes>().HideSpikes();
+
+
+            print(collision.transform.name);
+        }
+
+        if (collision.transform.tag == "RigthWall")
+
+        {
+            collision.transform.GetComponent<Spikes>().EnableSpikes();
+
+            GameObject.FindWithTag("LeftWall").transform.GetComponent<Spikes>().HideSpikes();
+
+            print(collision.transform.name);
         }
     }  
 }

@@ -2208,19 +2208,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chuzos:
-  - {fileID: 117929609}
-  - {fileID: 610386339}
-  - {fileID: 876220269}
-  - {fileID: 1961538975}
-  - {fileID: 1646954756}
-  - {fileID: 475356064}
-  - {fileID: 1529932588}
-  - {fileID: 1824756270}
-  - {fileID: 1187716390}
-  - {fileID: 563727974}
-  - {fileID: 1503031739}
+  - {fileID: 888322996}
+  - {fileID: 1178926016}
+  - {fileID: 565020035}
+  - {fileID: 1506761573}
+  - {fileID: 167049488}
+  - {fileID: 1636515607}
+  - {fileID: 197363506}
+  - {fileID: 59506209}
+  - {fileID: 1125990790}
+  - {fileID: 132905445}
+  - {fileID: 1245874680}
   allSpikes: 0
-  mySide: 0
+  mySide: 1
 --- !u!61 &676315230
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5129,19 +5129,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chuzos:
-  - {fileID: 888322996}
-  - {fileID: 1178926016}
-  - {fileID: 565020035}
-  - {fileID: 1506761573}
-  - {fileID: 167049488}
-  - {fileID: 1636515607}
-  - {fileID: 197363506}
-  - {fileID: 59506209}
-  - {fileID: 1125990790}
-  - {fileID: 132905445}
-  - {fileID: 1245874680}
+  - {fileID: 117929609}
+  - {fileID: 610386339}
+  - {fileID: 876220269}
+  - {fileID: 1961538975}
+  - {fileID: 1646954756}
+  - {fileID: 475356064}
+  - {fileID: 1529932588}
+  - {fileID: 1824756270}
+  - {fileID: 1187716390}
+  - {fileID: 563727974}
+  - {fileID: 1503031739}
   allSpikes: 0
-  mySide: 1
+  mySide: 0
 --- !u!61 &1926654094
 BoxCollider2D:
   m_ObjectHideFlags: 0
