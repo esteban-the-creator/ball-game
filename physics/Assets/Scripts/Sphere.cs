@@ -37,19 +37,15 @@ public class Sphere : MonoBehaviour
             if (transform.position.y >= halfSpace.transform.position.y)
             {
                 PlayerRgdBdy.velocity = new Vector2(moveX, -30);
-
             }
         }
 
         if (collision.transform.tag == "LeftWall")
         
         {
-            collision.transform.GetComponent<Spikes>().EnableSpikes();
+            collision.transform.GetComponent<Spikes>().EnableSpikes(); // se llama a la funcion de activar chuzos que maneja el script que tiene la pared
 
-            GameObject.FindWithTag("RigthWall").transform.GetComponent<Spikes>().HideSpikes();
-
-
-            print(collision.transform.name);
+            GameObject.FindWithTag("RigthWall").transform.GetComponent<Spikes>().HideSpikes();//se busca a los gameobjects de tag pared derecha (osea contraria) y se llama a la funcion esconderlos
         }
 
         if (collision.transform.tag == "RigthWall")
@@ -58,8 +54,6 @@ public class Sphere : MonoBehaviour
             collision.transform.GetComponent<Spikes>().EnableSpikes();
 
             GameObject.FindWithTag("LeftWall").transform.GetComponent<Spikes>().HideSpikes();
-
-            print(collision.transform.name);
         }
     }  
 }
