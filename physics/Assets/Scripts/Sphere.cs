@@ -30,7 +30,12 @@ public class Sphere : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision) /* una funcion reservada que se ejecuta sola sin la necesidad de ser llamada en un Update que permite
        detectar cuándo se colisiona contra un objeto */
     {
-        moveX *= -1; // la variable moveX sera igual a el valor que tenga moveX en ese momento por -1 para cambiar la magnitud de su direccion 
+        if ((moveX > 0 && collision.transform.CompareTag("LeftWall")) || (moveX < 0 && collision.transform.CompareTag("RigthWall")))
+        {
+            moveX *= -1;
+            print ("choque");
+        }
+         // la variable moveX sera igual a el valor que tenga moveX en ese momento por -1 para cambiar la magnitud de su direccion 
 
         if (collision.transform.tag == "LeftWall" || collision.transform.tag == "RigthWall")
         {
@@ -56,6 +61,8 @@ public class Sphere : MonoBehaviour
             GameObject.FindWithTag("LeftWall").transform.GetComponent<Spikes>().HideSpikes();
         }
     }  
+
+
 }
 
 /*
