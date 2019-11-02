@@ -1,0 +1,1790 @@
+fileFormatVersion: 2
+guid: 44e4dde65ee78f444b752b3d70238207
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NicePng_ryu-hayabusa-png_3114065_0
+    21300002: NicePng_ryu-hayabusa-png_3114065_1
+    21300004: NicePng_ryu-hayabusa-png_3114065_2
+    21300006: NicePng_ryu-hayabusa-png_3114065_3
+    21300008: NicePng_ryu-hayabusa-png_3114065_4
+    21300010: NicePng_ryu-hayabusa-png_3114065_5
+    21300012: NicePng_ryu-hayabusa-png_3114065_6
+    21300014: NicePng_ryu-hayabusa-png_3114065_7
+    21300016: NicePng_ryu-hayabusa-png_3114065_8
+    21300018: NicePng_ryu-hayabusa-png_3114065_9
+    21300020: NicePng_ryu-hayabusa-png_3114065_10
+    21300022: NicePng_ryu-hayabusa-png_3114065_11
+    21300024: NicePng_ryu-hayabusa-png_3114065_12
+    21300026: NicePng_ryu-hayabusa-png_3114065_13
+    21300028: NicePng_ryu-hayabusa-png_3114065_14
+    21300030: NicePng_ryu-hayabusa-png_3114065_15
+    21300032: NicePng_ryu-hayabusa-png_3114065_16
+    21300034: NicePng_ryu-hayabusa-png_3114065_17
+    21300036: NicePng_ryu-hayabusa-png_3114065_18
+    21300038: NicePng_ryu-hayabusa-png_3114065_19
+    21300040: NicePng_ryu-hayabusa-png_3114065_20
+    21300042: NicePng_ryu-hayabusa-png_3114065_21
+    21300044: NicePng_ryu-hayabusa-png_3114065_22
+    21300046: NicePng_ryu-hayabusa-png_3114065_23
+    21300048: NicePng_ryu-hayabusa-png_3114065_24
+    21300050: NicePng_ryu-hayabusa-png_3114065_25
+    21300052: NicePng_ryu-hayabusa-png_3114065_26
+    21300054: NicePng_ryu-hayabusa-png_3114065_27
+    21300056: NicePng_ryu-hayabusa-png_3114065_28
+    21300058: NicePng_ryu-hayabusa-png_3114065_29
+    21300060: NicePng_ryu-hayabusa-png_3114065_30
+    21300062: NicePng_ryu-hayabusa-png_3114065_31
+    21300064: NicePng_ryu-hayabusa-png_3114065_32
+    21300066: NicePng_ryu-hayabusa-png_3114065_33
+    21300068: NicePng_ryu-hayabusa-png_3114065_34
+    21300070: NicePng_ryu-hayabusa-png_3114065_35
+    21300072: NicePng_ryu-hayabusa-png_3114065_36
+    21300074: NicePng_ryu-hayabusa-png_3114065_37
+    21300076: NicePng_ryu-hayabusa-png_3114065_38
+    21300078: NicePng_ryu-hayabusa-png_3114065_39
+    21300080: NicePng_ryu-hayabusa-png_3114065_40
+    21300082: NicePng_ryu-hayabusa-png_3114065_41
+    21300084: NicePng_ryu-hayabusa-png_3114065_42
+    21300086: NicePng_ryu-hayabusa-png_3114065_43
+    21300088: NicePng_ryu-hayabusa-png_3114065_44
+    21300090: NicePng_ryu-hayabusa-png_3114065_45
+    21300092: NicePng_ryu-hayabusa-png_3114065_46
+    21300094: NicePng_ryu-hayabusa-png_3114065_47
+    21300096: NicePng_ryu-hayabusa-png_3114065_48
+    21300098: NicePng_ryu-hayabusa-png_3114065_49
+    21300100: NicePng_ryu-hayabusa-png_3114065_50
+    21300102: NicePng_ryu-hayabusa-png_3114065_51
+    21300104: NicePng_ryu-hayabusa-png_3114065_52
+    21300106: NicePng_ryu-hayabusa-png_3114065_53
+    21300108: NicePng_ryu-hayabusa-png_3114065_54
+    21300110: NicePng_ryu-hayabusa-png_3114065_55
+    21300112: NicePng_ryu-hayabusa-png_3114065_56
+    21300114: NicePng_ryu-hayabusa-png_3114065_57
+    21300116: NicePng_ryu-hayabusa-png_3114065_58
+    21300118: NicePng_ryu-hayabusa-png_3114065_59
+    21300120: NicePng_ryu-hayabusa-png_3114065_60
+    21300122: NicePng_ryu-hayabusa-png_3114065_61
+    21300124: NicePng_ryu-hayabusa-png_3114065_62
+    21300126: NicePng_ryu-hayabusa-png_3114065_63
+    21300128: NicePng_ryu-hayabusa-png_3114065_64
+    21300130: NicePng_ryu-hayabusa-png_3114065_65
+    21300132: NicePng_ryu-hayabusa-png_3114065_66
+    21300134: NicePng_ryu-hayabusa-png_3114065_67
+    21300136: NicePng_ryu-hayabusa-png_3114065_68
+    21300138: NicePng_ryu-hayabusa-png_3114065_69
+    21300140: NicePng_ryu-hayabusa-png_3114065_70
+    21300142: NicePng_ryu-hayabusa-png_3114065_71
+    21300144: NicePng_ryu-hayabusa-png_3114065_72
+    21300146: NicePng_ryu-hayabusa-png_3114065_73
+    21300148: NicePng_ryu-hayabusa-png_3114065_74
+    21300150: NicePng_ryu-hayabusa-png_3114065_75
+    21300152: NicePng_ryu-hayabusa-png_3114065_76
+    21300154: NicePng_ryu-hayabusa-png_3114065_77
+    21300156: NicePng_ryu-hayabusa-png_3114065_78
+    21300158: NicePng_ryu-hayabusa-png_3114065_79
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 355
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1380737c2445f4f864e6926feb89e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 355
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19524f8c29fbff64c8321a6002a23e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 316
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4df1d74e049c6b489f010e6df090aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 316
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aef0338466923d4c9c3bbeeaa318400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 316
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7cd005af474954a92ee9ed20f6409b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 315
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b0a0c00c76b164492237ce18f3f993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 315
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaed54a6178265479387a02f180327b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 316
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062a38d9b501ef547a81658e9f8a2a17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 316
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8519ccee6b5e94b8a5c6562f6ed8b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 316
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f965ad7e68bbf4bafcfce63f26cad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 283
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0273fd81833476e43a8ab4bd7c75ed0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 279
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a1b3b780e32b948a578cbef00cc3d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 283
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f42078b5c27c47b13b6d72b51c18c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 279
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a107da90af1924a954c0b821584b9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 276
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8318d68d81ca75741a769c31f880d192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 276
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0f3a1e2d239514ab5f6bd9535b5808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 276
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017ab4887daadcc4c8cb45bd3c5a1ae3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 276
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86443a5aa8cddfd4084b4fec54e5344d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 279
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b1d2c1933f7f84e85df7ef1946c179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 283
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb9b22e20b311e44bbabcb93e0d5e5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_20
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 279
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470cdd47048005b4e9745aa1dac24a87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_21
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 283
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c219db4d039966042aa00850101f5a89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 240
+        width: 17
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472b8cfdbb0f1be4a8463d680399ad72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 239
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1d0abb2b248d9489208ee447abe0bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_24
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 239
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cde3f6fcedd9642b55844f31da1424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 235
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8638f47c2c87684fa5428e7b87405fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_26
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 235
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f59431f573f95749b4ee2017d062120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_27
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 239
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2713aa17283f9fa4fbfcd435cc400328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_28
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 239
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae208e9c47f2d6947927ed21e33be1b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_29
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 240
+        width: 17
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660cbb0be55863a44bdfd0531dad4f93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 193
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739821e9fe57ce549a09157eaf6abe17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 193
+        width: 16
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99ccf49e94959c46b96c2c91936caa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 194
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b87bbd994e45e547bf418ff2b28c05b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 193
+        width: 19
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a2a8b6faf4a247bc81345a104027c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_34
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 193
+        width: 19
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9585ac9a0b7c9248ba2c2ad7b224cf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_35
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 194
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c83e54a147904343be814dcf6842b80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 193
+        width: 16
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e1e1fc408537a4ba210da132a1a9f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_37
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 193
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b534c089977655b40aa22edc78918492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e644eaaabd1597146ac65cdd1ef49516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 156
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d234b23a01731428a46b1450e758c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 156
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fef02da5bfcb746b06d4bb30adea48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 157
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e178a9ed531251d46b97fde9dc9990f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 156
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b75202fccb07e249897dfad5fe53840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 156
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e87e95d982f1094c8b9d7b6a07fb281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_44
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 157
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d4b78e2d4415146aeaf7949ae12a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 156
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70464937f8b264f4d8d4bc686c9884e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_46
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 156
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ead80e3c7adef41ad2ab020131f910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_47
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 156
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5cd31775cebe34da8e5f7afd54d3bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 117
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9142453bd46e90b4082b63917f927817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d77877f30bd772499868abbf897c0db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_50
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 117
+        width: 40
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d8b2e8142f482469cbc26c5bb19c24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_51
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 116
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058b8c8c0d1f89a46b45cffca02ec3cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_52
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 116
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893f949f3dc4b05438fc3c8dfc51ed07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_53
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 117
+        width: 40
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b7fa7f396c5a948b08eaec13366367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_54
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 117
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d176e952ebcc4d42a59ccb6900a2432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_55
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 117
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116e0a01574b1ac479bb83f156887f43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 87
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9254c839798a1479d36f7e0081c838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_57
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 76
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b82904695e4b64b81aa1504207a549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 86
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc06b6e4af5291f46b56b87f51ba2995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 77
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bb2e516da95a244ad67397c333ddbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_60
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 77
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4250b6f4b7f8be8488385f020aaefd9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_61
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 86
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bccdeab784bd6a48bc7245f9366762e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 76
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b39b093f14f18c41847dcc3852b9aeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_63
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 87
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cbe3cd789b53443ab8af6062d6e147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_64
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 36
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059c0b8e578fb9442bca6f7bffb05d02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 36
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d6ca8715d22b54bab6c809f7685761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_66
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 36
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accd08c298eee0c46ba70ca35d0780e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 36
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5880da7c54ecd049a0aea5438aa8ac6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_68
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 36
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9909eab0fbb6643b6a30e6ce72ab2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_69
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 36
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3160273c6d32f7b4cbb344eda292071d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_70
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 36
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf2eeabb21bab44d9b74be70c5ceb81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_71
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 36
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2495876ccbb9947854731a67e6e406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039c0e8cd037424db98ebb5651db303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_73
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df63aabf5f3d7a43b281c2abf13ab54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 29
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9283622f863da8749a48d2aef408e26a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 39
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0494d03238c0447ba8cae5ced3b54c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 39
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8735036fab44940b49f00b4edce123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_77
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 29
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e472170a375c145af46afcfc77e6bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_78
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f79e1a0534690a439e55cfa263c588a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_ryu-hayabusa-png_3114065_79
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a78bcfb14d9c342bac29d2dd0ccfe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c0c37ebdaf3bfc641a9ae20cfb800204
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
