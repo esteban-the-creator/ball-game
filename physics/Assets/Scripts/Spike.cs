@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spike : MonoBehaviour
 {
     public Vector2 start, end;
-    private float offset = 2; // se debe declarar este offset privado,porque si se hace publico unity lo de un valor desde el principio en 0 independientemente de que esté declarado en 2
+    private float offset = 8; // se debe declarar este offset privado,porque si se hace publico unity lo de un valor desde el principio en 0 independientemente de que esté declarado en 2
     Vector2 posToGo;
 
     public void InitializeAsLeft()
@@ -25,7 +25,7 @@ public class Spike : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, posToGo, 10 * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, posToGo, 100 * Time.deltaTime);
     }
 
     // con show o hide, lo unico que se hace es switchear entre que valor deben mantener los chuzos con el postogo , ya que constantemente el chuzo esta yendo a un punto el inicio o el fin
