@@ -8,6 +8,7 @@ TagManager:
   - SpikerRigth
   - LeftWall
   - RigthWall
+  - Spike
   layers:
   - Default
   - TransparentFX

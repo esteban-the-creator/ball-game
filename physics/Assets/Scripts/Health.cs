@@ -1,28 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+
 
 public class Health : MonoBehaviour
 {
 
     int health = 3;
-
+    public List<GameObject> pSalud = new List<GameObject>();
+    private Transform playerPos;
     public Transform respawnPoint;
+    public AudioClip impact;
+    AudioSource audioSource;
 
 
-   
-
-
-    private void OnCollisionEnter2D(Collision2D collision) /* una funcion reservada que se ejecuta sola sin la necesidad de ser llamada en un Update que permite
-       detectar cuándo se colisiona contra un objeto */
+    private void Start()
     {
-        if ((collision.transform.CompareTag("LeftWall")) || (collision.transform.CompareTag("RigthWall")))
+        playerPos = this.transform;
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Update()
+    {
+        if (health == 2)
         {
+            pSalud[1] = gameObject.GetComponent<Renderer>().material.SetColor.red
+        }
+        if(health <= 0)
+        {
+            Dead();
+            health = 3;
+        }
+    }
+
+    public void Dead()
+    {
+        playerPos.position = respawnPoint.position;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if ((collision.transform.CompareTag("Spike")))
+        {
+            audioSource.PlayOneShot(impact, 0.7F);
+
+            Handheld.Vibrate();
+
             health -= 1;
+
             print("saludmenios1");
         }
-        // la variable moveX sera igual a el valor que tenga moveX en ese momento por -1 para cambiar la magnitud de su direccion 
-
-    
     }
 }
