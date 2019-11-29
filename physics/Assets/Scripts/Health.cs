@@ -23,10 +23,10 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-        if (health == 2)
-        {
-            pSalud[1] = gameObject.GetComponent<Renderer>().material.SetColor.red
-        }
+        //if (health == 2)
+        //{
+        //    pSalud[1] = gameObject.GetComponent<Renderer>().material.SetColor.red
+        //}
         if(health <= 0)
         {
             Dead();
