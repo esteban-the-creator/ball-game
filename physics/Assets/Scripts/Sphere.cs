@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Sphere : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class Sphere : MonoBehaviour
     public float moveX = 2.5f;
     private Rigidbody2D PlayerRgdBdy;
     public Transform halfSpace;
+    public int score = 0;
 
     private void Start()
     {
@@ -39,6 +42,7 @@ public class Sphere : MonoBehaviour
 
         if (collision.transform.tag == "LeftWall" || collision.transform.tag == "RigthWall")
         {
+            score += 1;
             if (transform.position.y >= halfSpace.transform.position.y)
             {
                 PlayerRgdBdy.velocity = new Vector2(moveX, -30);

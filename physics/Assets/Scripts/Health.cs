@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
 {
 
     int health = 3;
-    public List<GameObject> pSalud = new List<GameObject>();
+    public List<Renderer> pSalud = new List<Renderer>();
     private Transform playerPos;
     public Transform respawnPoint;
     public AudioClip impact;
@@ -23,14 +23,21 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-        //if (health == 2)
-        //{
-        //    pSalud[1] = gameObject.GetComponent<Renderer>().material.SetColor.red
-        //}
-        if(health <= 0)
+        if (health == 2)
+        {
+            pSalud[0].gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+
+        if (health == 1)
+        {
+            pSalud[1].gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+
+        if (health <= 0)
         {
             Dead();
             health = 3;
+            pSalud.ForEach((sphere) => sphere.GetComponent<SpriteRenderer>().color = Color.green);
         }
     }
 
