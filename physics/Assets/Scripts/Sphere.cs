@@ -11,6 +11,7 @@ public class Sphere : MonoBehaviour
     private Rigidbody2D PlayerRgdBdy;
     public Transform halfSpace;
     public int score = 0;
+    public Text puntaje;
 
     private void Start()
     {
@@ -19,6 +20,8 @@ public class Sphere : MonoBehaviour
 
     private void Update()
     {
+        puntaje.text = score.ToString();
+    
         if (Input.GetMouseButtonDown(0))
         {
             Movement();
