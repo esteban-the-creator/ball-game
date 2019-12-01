@@ -8,7 +8,7 @@ public class Spikes : MonoBehaviour
     public List<GameObject> chuzos = new List<GameObject>();
     [SerializeField]
     private int allSpikes;
-    private int RndomSpike1;
+    private int RndomSpike1, RndomSpike2, RndomSpike3;
     public sideOfSpikes mySide; // se llama al enum que está publico en el mundo (el mundo del script, osea más abajo, aunque esto no es una instancia) y se usa como variable para determinar el lado (Der. o Izq), manualmente desde el inspector de unity
 
 
@@ -46,8 +46,12 @@ public class Spikes : MonoBehaviour
     public void EnableSpikes()
     {
         RndomSpike1 = Random.Range(0, allSpikes - 1);
+        RndomSpike2 = Random.Range(0, allSpikes - 1);
+        RndomSpike3 = Random.Range(0, allSpikes - 1);
 
         chuzos[RndomSpike1].GetComponent<Spike>().Show();
+        chuzos[RndomSpike2].GetComponent<Spike>().Show();
+        chuzos[RndomSpike3].GetComponent<Spike>().Show();
     }
 
     public void HideSpikes()
