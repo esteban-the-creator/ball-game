@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     public List<Renderer> pSalud = new List<Renderer>();
     private Transform playerPos;
     public Transform respawnPoint;
-    public AudioClip impact;
+    public AudioClip impact, death;
     AudioSource audioSource;
 
 
@@ -45,6 +45,8 @@ public class Health : MonoBehaviour
     public void Dead()
     {
         playerPos.position = respawnPoint.position;
+        audioSource.PlayOneShot(death, 0.7F);
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -58,6 +60,15 @@ public class Health : MonoBehaviour
             health -= 1;
 
             print("saludmenios1");
+
+            gameObject.GetComponent<Sphere>().Movement();
+        }
+
+        if (collision.transform.tag == "Saw")
+
+        {
+            Handheld.Vibrate();
+            health -= 3;
         }
     }
 }
