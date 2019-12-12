@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
     public AudioClip impact, death;
     AudioSource audioSource;
 
-
+ 
     private void Start()
     {
         playerPos = this.transform;
@@ -35,17 +35,30 @@ public class Health : MonoBehaviour
 
         if (health <= 0)
         {
+            audioSource.PlayOneShot(death, 0.4F);
             Dead();
-            health = 3;
-            pSalud.ForEach((sphere) => sphere.GetComponent<SpriteRenderer>().color = Color.green);
-            gameObject.GetComponent<Sphere>().score = 0;
+            if (Input.GetMouseButtonDown(0))
+            {
+               Revive();
+            }
         }
     }
 
     public void Dead()
     {
         playerPos.position = respawnPoint.position;
-        audioSource.PlayOneShot(death, 0.7F);
+        gameObject.GetComponent<Sphere>().Stop();
+        gameObject.GetComponent<Sphere>().timer = 5;
+
+
+    }
+
+    public void Revive()
+    {
+        health = 3;
+        pSalud.ForEach((sphere) => sphere.GetComponent<SpriteRenderer>().color = Color.green);
+        gameObject.GetComponent<Sphere>().score = 0;
+        gameObject.GetComponent<Sphere>().Begin();
 
     }
 

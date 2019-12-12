@@ -8,24 +8,84 @@ public class Sphere : MonoBehaviour
 {
     public float forceUP = 50;
     public float moveX = 2.5f;
+    public float timer = 5f;
     private Rigidbody2D PlayerRgdBdy;
     public Transform halfSpace;
     public int score = 0;
     public Text puntaje;
+    public Canvas pausa, winner;
+    private bool pause ;
+    public AudioClip Uwin;
+    AudioSource audioSource;
 
+
+    private void Awake()
+    {
+        winner.enabled = false;
+    }
     private void Start()
     {
+        Stop();
+        audioSource = GetComponent<AudioSource>();
         PlayerRgdBdy = GetComponent<Rigidbody2D>(); // a la variable rigidbody creada se le asigna el componente RigidBody2D del objeto al que se le asigne
     }
 
     private void Update()
     {
         puntaje.text = score.ToString();
-    
-        if (Input.GetMouseButtonDown(0))
+
+        if (pause == true)
         {
-            Movement();
+            if (Input.GetMouseButtonDown(0))
+            {
+                Begin();
+            }
+
         }
+
+        else
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Movement();
+
+
+            }
+        }
+
+        if (score == 10  || score > 10 )
+        {
+            Win();
+
+            timer -= 1 * Time.deltaTime;
+
+            print("timne:" + timer);
+
+            if (timer <= 0)
+            {
+                winner.enabled = false;
+            }
+        }
+    }
+
+    public void Win()
+    {
+        winner.enabled = true;
+        audioSource.PlayOneShot(Uwin, 0.4F);
+    }
+
+    public void Begin()
+    {
+        Time.timeScale = 1;
+        pausa.enabled = false;
+        pause = false;
+    }
+
+    public void Stop()
+    {
+        pausa.enabled = true;
+        pause = true;
+        Time.timeScale = 0;
     }
 
     public void Movement()
